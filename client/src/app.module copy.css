@@ -1,0 +1,44 @@
+@import './global_colors/colors.css';
+
+*,
+*::before,
+*::after {
+  font-family: 'Montserrat', sans-serif;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.app_page {
+  background-color: var(--color-primary);
+  height: 100vh;
+  width: 100%;
+}
+
+.app_page > h1 {
+  font-size: 5rem;
+}
+
+/* extra large devices */
+@media (max-width: 1200px) {
+  html {
+    font-size: 16px;
+  }
+}
+/* large devices */
+@media (max-width: 992px) {
+  html {
+    font-size: 14px;
+  }
+}
+/* medium devices */
+@media (max-width: 768px) {
+  html {
+    font-size: 12px;
+  }
+}
+/* small devices */
+@media (max-width: 576px) {
+  html {
+    font-size: 10px;
+  }
+}

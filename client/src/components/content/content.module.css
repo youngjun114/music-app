@@ -1,0 +1,20 @@
+@import '../../global_colors/colors.css';
+
+.content_container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 56px;
+  margin-left: 240px;
+  height: 100%;
+}
+
+.list_container {
+  width: 90%;
+  height: 100%;
+  background-color: cornflowerblue;
+}
+
+.list_container > img {
+  width: 15vw;
+}

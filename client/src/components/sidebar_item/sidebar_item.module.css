@@ -1,0 +1,28 @@
+@import '../../global_colors/colors.css';
+
+.sidebar_row {
+  display: flex;
+  align-items: center;
+  height: 75px;
+  width: 100%;
+  padding: 0 0.5rem;
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+}
+
+.icon {
+  font-size: 2.5rem;
+}
+
+.title {
+  width: 100%;
+  font-size: 1.75rem;
+  font-weight: bold;
+  margin-left: 0.5rem;
+  text-align: start;
+}
+
+.sidebar_row:hover {
+  opacity: 0.7;
+}

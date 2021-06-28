@@ -1,0 +1,62 @@
+@import '../../global_colors/colors.css';
+
+.header_left {
+  font-size: 1.5rem;
+}
+
+.header_mid {
+  display: flex;
+  height: 40px;
+  width: 30%;
+  border-radius: 10px;
+  background-color: white;
+  border: 2px solid var(--color-secondary-dark);
+}
+
+.search {
+  border: none;
+  outline: none;
+  width: 100%;
+  height: 100%;
+  font-size: 1.25rem;
+  padding-left: 1rem;
+  background-color: transparent;
+}
+
+.search_button {
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+}
+
+.search_icon {
+  font-size: 24px;
+  color: var(--color-secondary-dark);
+}
+
+.search:focus {
+  outline: none;
+}
+
+.header_right {
+  display: flex;
+  align-items: center;
+  background-color: transparent;
+  border: none;
+}
+
+.sign_out {
+  color: rgb(235, 202, 202);
+  font-weight: 700;
+  background-color: rgb(250, 49, 74);
+  font-size: 1.25rem;
+  height: 2.5rem;
+  width: 8rem;
+  border-radius: 5px;
+  border: none;
+  cursor: pointer;
+}
+
+.sign_out:hover {
+  opacity: 0.7;
+}
