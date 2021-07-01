@@ -1,11 +1,13 @@
 import React from 'react';
 import styles from './content.module.css';
 
-const Content = () => {
+const Content = ({ items }) => {
   return (
     <div className={styles.content_container}>
       <div className={styles.list_container}>
-        <h1>content</h1>
+        {/* {items.map((item) => {
+          <h1>{item.artist}</h1>;
+        })} */}
       </div>
     </div>
   );
